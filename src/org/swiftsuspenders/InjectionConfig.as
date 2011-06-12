@@ -71,11 +71,13 @@ package org.swiftsuspenders
 		{
 			if (m_result != null && result != null)
 			{
-				trace('Warning: Injector already has a rule for type "' +
+				//PLAYING AROUND / TESTING takign it off for now
+				
+				/*trace('Warning: Injector already has a rule for type "' +
 						getQualifiedClassName(request) + '", named "' + injectionName + '".\n ' +
 						'If you have overwritten this mapping intentionally you can use ' +
 						'"injector.unmap()" prior to your replacement mapping in order to ' +
-						'avoid seeing this message.');
+						'avoid seeing this message.');*/
 			}
 			m_result = result;
 		}
